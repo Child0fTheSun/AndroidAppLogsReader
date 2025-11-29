@@ -1,0 +1,35 @@
+# flutter pub run flutter_native_splash:create
+flutter_native_splash:
+  # Splash screen background color
+  color: "#FFFFFF"
+  
+  # Path to the image for the splash screen
+  image: assets/images/app_icon.png
+  
+  # Background color for dark theme (optional)
+  color_dark: "#1F2937"
+  image_dark: assets/images/app_icon.png
+  
+  # Android settings
+  android: true
+  android_12:
+    # Android 12+ settings
+    image: assets/images/android12_splash.png
+    color: "#FFFFFF"
+    
+    # Dark theme Android 12+
+    image_dark: assets/images/android12_splash.png
+    color_dark: "#1F2937"
+  
+  # iOS settings
+  ios: true
+  
+  # Web (optional)
+  web: false
+  
+  # Fullscreen mode (removes system bar on Android)
+  android_gravity: center
+  ios_content_mode: center
+  
+  # Remove fullscreen mode to show status bar
+  fullscreen: false
