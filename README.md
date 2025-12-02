@@ -14,7 +14,7 @@ A Flutter application designed to read and parse `.logcat` files exported from A
 - **Localization**: Support for English and Russian languages.
 - **Scroll to Top**: Convenient button to quickly scroll to the top of the log list.
 
-## Screenshots
+## 📸 Screenshots
 
 <img src="/screenshots/home_screen.jpg" width="300px" /> <img src="/screenshots/history_screen.jpg" width="300px" />
 <img src="/screenshots/settings_screen.jpg" width="300px" />
