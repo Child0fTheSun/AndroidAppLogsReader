@@ -1,6 +1,8 @@
-<div><h1 align="center">Android App Logs Reader</h1></div>
+<img src="/assets/images/app_icon.png" width="192px" />
 
-A Flutter application designed to read, parse, and filter `.logcat` files exported from Android Studio. This tool provides a user-friendly interface to analyze Android application logs with advanced filtering capabilities and color-coded log levels.
+# Android App Logs Reader
+
+A Flutter application designed to read and parse `.logcat` files exported from Android Studio. This tool provides a user-friendly interface to analyze Android application logs with advanced filtering capabilities and color-coded log levels.
 
 ## ✨ Features
 
@@ -12,15 +14,10 @@ A Flutter application designed to read, parse, and filter `.logcat` files export
 - **Localization**: Support for English and Russian languages.
 - **Scroll to Top**: Convenient button to quickly scroll to the top of the log list.
 
-## Usage
+## Screenshots
 
-1.  Launch the application.
-2.  Click the folder icon in the top right corner to open a `.logcat` file.
-3.  Use the search bar to filter logs.
-    -   Type `package:com.myapp` to filter by package.
-    -   Type `tag:Network` to filter by tag.
-    -   Type any text to search within the log message.
-4.  Access settings to change the theme or language.
+<img src="/screenshots/home_screen.jpg" width="300px" /> <img src="/screenshots/history_screen.jpg" width="300px" />
+<img src="/screenshots/settings_screen.jpg" width="300px" />
 
 ## 🛠 Tech Stack
 
@@ -54,44 +51,51 @@ A Flutter application designed to read, parse, and filter `.logcat` files export
 - Android SDK: minimum API 21 (Android 5.0)
 - iOS: minimum iOS 12.0
 
-## 🚀 Getting Started
+## 🤝 Contributing
 
-### Prerequisites
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
--   [Flutter SDK](https://flutter.dev/docs/get-started/install) (latest stable version)
--   Dart SDK
+1. **Fork the repository** and create your branch from `main`.
+2. **Make your changes** and ensure the code follows the project's coding style.
+3. **Test your changes** thoroughly before submitting.
+4. **Create a Pull Request** with a clear description of what you've changed and why.
 
-### Installation
+### Reporting Issues
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/Child0fTheSun/as_app_logs_reader.git
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd as_app_logs_reader
-    ```
-3.  Install dependencies:
-    ```bash
-    flutter pub get
-    ```
-4.  Run the application:
-    ```bash
-    flutter run
-    ```
+If you find a bug or have a feature request, please [open an issue](https://github.com/Child0fTheSun/AndroidAppLogsReader/issues) with:
+- A clear description of the problem or suggestion
+- Steps to reproduce (for bugs)
+- Expected vs actual behavior
+- Screenshots if applicable
 
-### Localization
+## 📄 License
 
-The application supports multilingualism. Localization files are generated automatically from ARB files according to the settings in `l10n.yaml`.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Application Icon
-To change the icon, edit `flutter_launcher_icons.yaml` and run:
-```bash
-flutter pub run flutter_launcher_icons:main
+```
+MIT License
+
+Copyright (c) 2025 Child0fTheSun
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
-### Splash Screen
-To change the splash screen, edit `flutter_native_splash.yaml` and run:
-```bash
-flutter pub run flutter_native_splash:create
-```
+---
+
+**Made with ❤️ using Flutter**
